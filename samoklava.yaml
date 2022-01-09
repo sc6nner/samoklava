@@ -6,12 +6,6 @@ units:
 points:
   key:
     footprints:
-      choc_hotswap:
-        type: choc
-        params:
-          hotswap: true
-          reverse: true
-          keycaps: true
         nets:
           # from: P1
           # to: P2
@@ -431,7 +425,7 @@ pcbs:
             - matrix_pinky_bottom
           shift: [0.75 kx, 0]
         params:
-          text: "samoklava v0.1\\nby soundmonster"
+          text: "Aglaophotis\\nby zerosh"
           justify: left
       info_r:
         type: text
@@ -441,6 +435,6 @@ pcbs:
           shift: [0.75 kx, 0]
         params:
           layer: B.SilkS
-          text: "samoklava v0.1\\nby soundmonster"
+          text: "Aglaophotis v0.1\\nby zerosh"
           justify: right mirror
 
